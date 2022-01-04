@@ -1,4 +1,4 @@
-# DOCKER                                                                                                                                                           ##Stefania Paz
+# DOCKER                                                                                                                                                         
 COMANDOS DE DOCKER
 ## Comandos
 
