@@ -1,5 +1,5 @@
-# DOCKER                                                                                                                                                         
-COMANDOS DE DOCKER
+# COMANDOS DE DOCKER                                                                                                                                                       
+
 
 
 ## Ver la version de Docker 
