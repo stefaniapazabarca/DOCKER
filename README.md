@@ -20,6 +20,18 @@ o
 docker image ls
 ```
 
+### Mostrar los contenedores que estan corriendo
+
+```
+docker ps
+```
+
+### Mostrar una lista de los contenedores que estan corriendo
+
+```
+docker stats --all
+```
+
 ### Construir la imagen sin etiqueta
 
 ```
@@ -42,4 +54,22 @@ docker tag helloworld:1.0 helloworld:latest
 
 ```
 docker inspect helloworld:latest
+```
+
+### Crear una imagen de un Dockerfile
+
+```
+docker build 
+```
+
+### Borrar una imagen
+
+```
+docker rmi 
+```
+
+### Mostrar el historial de una imagen
+
+```
+docker history
 ```
