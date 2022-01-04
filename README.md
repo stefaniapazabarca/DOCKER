@@ -16,6 +16,31 @@ o
 docker create helloworld:etiqueta
 ```
 
+### Iniciar o arrancar un contenedor ya creado
+
+```
+docker start name
+```
+
+## Eliminar contenedores
+```
+docker rm ID_parcial
+```
+o 
+```
+docker rm ID
+```
+o 
+```
+docker rm name
+```
+
+### Eliminar un contenedor que esta corriendo
+
+```
+docker rm name -f
+```
+
 ## Listar imagenes
 ```
 docker images
@@ -71,19 +96,6 @@ docker inspect helloworld:latest
 
 ```
 docker history
-```
-
-## Eliminar contenedores
-```
-docker rm ID_parcial
-```
-o 
-```
-docker rm ID
-```
-o 
-```
-docker rm name
 ```
 
 ### Detener un contenedor
