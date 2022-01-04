@@ -2,6 +2,15 @@
 COMANDOS DE DOCKER
 ## Comandos
 
+## Ver la version de Docker 
+```
+docker --version
+```
+## Extraer una imagen de Dockerhub(repositorio de docker)
+```
+docker pull httpd
+```
+
 ## Listar imagenes
 ```
 docker images
