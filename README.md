@@ -56,10 +56,10 @@ docker tag helloworld:1.0 helloworld:latest
 docker inspect helloworld:latest
 ```
 
-### Crear una imagen de un Dockerfile
+### Crear y comenzar un contenedor en una operacion 
 
 ```
-docker build 
+docker run
 ```
 
 ### Borrar una imagen
