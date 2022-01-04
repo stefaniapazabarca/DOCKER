@@ -44,6 +44,12 @@ docker build
 docker build -t helloworld:1.0
 ```
 
+### Crear y comenzar un contenedor en una operacion 
+
+```
+docker run
+```
+
 ### Etiquetar la imagen como latest
 
 ```
@@ -56,10 +62,10 @@ docker tag helloworld:1.0 helloworld:latest
 docker inspect helloworld:latest
 ```
 
-### Crear y comenzar un contenedor en una operacion 
+### Mostrar el historial de una imagen
 
 ```
-docker run
+docker history
 ```
 
 ### Borrar una imagen
@@ -68,8 +74,4 @@ docker run
 docker rmi 
 ```
 
-### Mostrar el historial de una imagen
 
-```
-docker history
-```
