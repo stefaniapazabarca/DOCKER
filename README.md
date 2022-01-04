@@ -20,7 +20,7 @@ o
 docker image ls
 ```
 
-### Mostrar los contenedores que estan corriendo
+### Mostrar los contenedores que estan corriendo y los detenidos
 
 ```
 docker ps
