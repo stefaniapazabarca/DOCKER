@@ -11,13 +11,13 @@ o
 docker image ls
 ```
 
-### construir la imagen sin etiqueta
+### Construir la imagen sin etiqueta
 
 ```
 docker build 
 ```
 
-### construir la imagen con etiqueta
+### Construir la imagen con etiqueta
 
 ```
 docker build -t helloworld:1.0
