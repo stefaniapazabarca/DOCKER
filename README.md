@@ -1,4 +1,4 @@
-# DOCKER
+# DOCKER                                                                                                                                                             Stefania Paz
 COMANDOS DE DOCKER
 ## Comandos
 
@@ -94,4 +94,4 @@ docker unpause
                                                                           
                                                                           
                                                                           
-                                                                         ##Stefania Paz
+                                                                         
