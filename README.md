@@ -6,9 +6,14 @@
 ```
 docker --version
 ```
-## Extraer una imagen de Dockerhub(repositorio de docker)
+
+## Crear un contenedor
 ```
-docker pull httpd
+docker create helloworld
+```
+o 
+```
+docker create helloworld:etiqueta
 ```
 
 ## Listar imagenes
@@ -68,10 +73,17 @@ docker inspect helloworld:latest
 docker history
 ```
 
-### Borrar una imagen
-
+## Eliminar contenedores
 ```
-docker rmi 
+docker rm ID_parcial
+```
+o 
+```
+docker rm ID
+```
+o 
+```
+docker rm name
 ```
 
 ### Detener un contenedor
@@ -89,6 +101,11 @@ docker pause
 
 ```
 docker unpause
+```
+
+## Extraer una imagen de Dockerhub(repositorio de docker)
+```
+docker pull httpd
 ```
 
                                                                           
