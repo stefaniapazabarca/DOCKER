@@ -74,4 +74,20 @@ docker history
 docker rmi 
 ```
 
+### Detener un contenedor
+
+```
+docker stop
+```
+### Pausar un contenedor
+
+```
+docker pause
+```
+
+### Quitar la pausa a un contenedor que esta corriendo 
+
+```
+docker unpause
+```
 
