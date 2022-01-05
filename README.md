@@ -190,7 +190,7 @@ docker volume rm my-volume
 ``` 
 docker volume prune
 ```
-## listar redes
+## Listar redes
 
 ```
 docker network ls
@@ -210,18 +210,18 @@ docker network create web --driver bridge
 docker create --name web01 --network web helloworld
 ```
 
-##  filtrar ip en la salida de docker inspect
+##  Filtrar ip en la salida de docker inspect
 ```
 docker inspect web01 |grep IPAddress
 ```
 
-## eliminar las redes que no esten en uso
+## Eliminar las redes que no esten en uso
 
 ```
 docker network prune
 ```
 
-## conectar y desconectar un contenedor de una red
+## Conectar y desconectar un contenedor de una red
 
 ```
 docker connect web web01
