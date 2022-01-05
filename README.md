@@ -85,6 +85,11 @@ docker run
 docker run -d ...
 ```
 
+## crear contenedor
+```
+docker run --name web01 -d -P helloworld
+```
+
 ### Etiquetar la imagen como latest
 
 ```
@@ -139,6 +144,22 @@ docker create -p 8080:80 --name web01 helloworld:latest
 ```
 cat /proc/sys/net/ipv4/ip_local_port_range
 ```                                                                          
-                                                                          
+ 
+ ## Algunos ejemplos de ejecutar comandos dentro del contenedor con exec
+```
+docker exec web01 ls /
+docker exec web01 ps
+```
+
+## Ejecutar la shell bash dentro de un contenedor que esta corriendo
+```
+docker exec -it web01 bash
+```
+
+## Ver logs de nginx dentro del contenedor
+```
+tail -f /var/log/nginx/access.log
+```
+
                                                                           
                                                                          
