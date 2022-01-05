@@ -133,7 +133,7 @@ docker pull httpd
 ```
 docker inspect NAME|grep IPAddress
 ```
-## crear un contenedor publicando un puerto especifico
+## Crear un contenedor publicando un puerto especifico
 
 ```
 docker create -p 8080:80 --name web01 helloworld:latest
@@ -160,7 +160,7 @@ docker exec -it web01 bash
 ```
 tail -f /var/log/nginx/access.log
 ```
-## listar volumenes
+## Listar volumenes
 
 ```
 docker volume ls
@@ -176,17 +176,17 @@ docker volume create my-volume
 docker volume inspect my-volume
 ```
 
-## crear contenedor con volumen persistente
+## Crear contenedor con volumen persistente
 ```
 docker create -P --mount source=my-volume,target=/var/www/html --name web01 helloworld:latest
 ```
 
-## eliminar un volumen
+## Eliminar un volumen
 ```
 docker volume rm my-volume
 ```
 
-## limpiar o purgar el listado de volumenes no utilizados
+## Limpiar o purgar el listado de volumenes no utilizados
 ``` 
 docker volume prune
 ```
