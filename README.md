@@ -79,6 +79,11 @@ docker build -t helloworld:1.0
 ```
 docker run
 ```
+## Crear contenedor y arrancarlo a la vez en segundo plano con un solo comando
+
+```
+docker run -d ...
+```
 
 ### Etiquetar la imagen como latest
 
@@ -119,8 +124,21 @@ docker unpause
 ```
 docker pull httpd
 ```
+## Obtener la ip de un contenedor desde inspect
+```
+docker inspect NAME|grep IPAddress
+```
+## crear un contenedor publicando un puerto especifico
 
-                                                                          
+```
+docker create -p 8080:80 --name web01 helloworld:latest
+```
+
+## Comprobar rango de puertos locales
+
+```
+cat /proc/sys/net/ipv4/ip_local_port_range
+```                                                                          
                                                                           
                                                                           
                                                                          
